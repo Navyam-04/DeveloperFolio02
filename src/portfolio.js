@@ -4,12 +4,13 @@
 
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
+import birthdayAnimationIntro from "./assets/lottie/birthdayAnimationIntro.json"; // Rename to your file name for custom animation
 
 // Splash Screen
 
 const splashScreen = {
   enabled: true, // set false to disable splash screen
-  animation: splashAnimation,
+  animation: birthdayAnimationIntro,
   duration: 2000 // Set animation duration as per your animation
 };
 
