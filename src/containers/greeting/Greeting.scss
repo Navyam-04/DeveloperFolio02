@@ -100,8 +100,11 @@
   }
 }
 @media (max-width: 768px) {
-  .button-greeting-div {
+ .button-greeting-div {
+    display: flex;
+    margin-top: 40px;
     justify-content: space-around;
+    gap: 20px;
   }
   .greeting-text {
     font-size: 30px;

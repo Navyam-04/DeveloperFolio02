@@ -11,7 +11,7 @@ import birthdayAnimationIntro from "./assets/lottie/birthdayAnimationIntro.json"
 const splashScreen = {
   enabled: true, // set false to disable splash screen
   animation: birthdayAnimationIntro,
-  duration: 2000 // Set animation duration as per your animation
+  duration: 3000 // Set animation duration as per your animation
 };
 
 // Summary And Greeting Section
