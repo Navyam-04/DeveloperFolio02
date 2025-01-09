@@ -177,7 +177,7 @@ const techStack = {
     },
     {
       Stack: "Excel",
-      progressPercentage: "80%"
+      progressPercentage: "90%"
     },
     {
       Stack: "Statistics",
