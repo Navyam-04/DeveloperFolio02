@@ -27,7 +27,7 @@ const greeting = {
     "Results-driven Data Science student with expertise in data analytics, statistics, and programming. Skilled in Python, SQL, Excel, and data visualization tools like Tableau and Power BI to deliver actionable insights and support decision-making. Passionate about solving real-world problems through data and seeking opportunities to grow as a Data Analyst through impactful projects and internships."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1f271bnpeXfgeItUMO37cdcQbgEBvGLF6/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1azLiuBOrKOC377I-V2cCneUgZZw7FDLm/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -143,19 +143,21 @@ const educationInfo = {
       logo: require("./assets/images/logorgm.jpg"),
       subHeader: "Bachelor of Technology in Computer Science ( Data Science ) ",
       duration: "September 2022 - April 2026",
-      desc: "Description ..................................Description",
-      // descBullets: [
-      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      // ]
+      desc: "My academic journey has equipped me with a solid foundation in data analysis, machine learning, and statistical modeling.",
+      descBullets: [
+        "I am passionate about leveraging data-driven insights to solve complex problems and make informed decisions.",
+        " With a keen eye for detail and proficiency in tools such as Python, SQL, and data visualization platforms, I am eager to apply my skills as a Data Analyst."
+      ]
     },
     {
       schoolName: "Narayana Junior College",
       logo: require("./assets/images/NarayanaJrClg.png"),
       subHeader: "Board of Intermediate Education, Andhra Pradesh ( BIEAP ) ",
       duration: "September 2020 - April 2022",
-      desc: "Description ................................Description",
-      // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      desc: "Completed Intermediate education in MPC under the Board of Intermediate Education, Andhra Pradesh (BIEAP).",
+      descBullets: [
+        "Developed a strong foundation in mathematics along with improved statistical skills."
+      ]
     }
   ]
 };
@@ -179,20 +181,20 @@ const techStack = {
     },
     {
       Stack: "Statistics",
-      progressPercentage: "70%"
-    },
-    {
-      Stack: "Python",
-      progressPercentage: "75%"
-    },
-    
-    {
-      Stack: "Data Visualization",
       progressPercentage: "90%"
     },
     {
+      Stack: "Python",
+      progressPercentage: "85%"
+    },
+    
+    // {
+    //   Stack: "Data Visualization",
+    //   progressPercentage: "90%"
+    // },
+    {
       Stack: "C++",
-      progressPercentage: "80%"
+      progressPercentage: "70%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -201,7 +203,7 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: false, //Set it to true to show workExperiences Section
   experience: [
     {
       role: "Software Engineer",
