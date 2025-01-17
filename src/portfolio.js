@@ -291,7 +291,7 @@ const achievementSection = {
       image: require("./assets/images/ibmlogo.png"),
       imageAlt: "IBM Logo",
       footerLink: [
-        {name: "Certification", url: "https://drive.google.com/file/d/1u6fHKaYDbehFbcIa9yX3k7xUd_awKAqR/view?usp=sharing"},
+        {name: "Certification", url: "https://drive.google.com/file/d/1knnAbD0kGhVquK9tMty9_aD7feiM-xU3/view?usp=sharing"},
         // {
         //   name: "Final Project",
         //   url: "https://pakistan-olx-1.firebaseapp.com/"
