@@ -24,7 +24,7 @@ const greeting = {
   username: "Mangali Navya",
   title: "Hi all, I'm Navya",
   subTitle: emoji(
-    "🌟 Passionate in Data Science🌟. I am an IBM Certified Data Analyst with a deep passion for transforming data into actionable insights 📊 that drive strategic business decisions. With a strong foundation in data analysis, I specialize in building data-driven solutions, predictive models, and visualizations that help businesses make informed choices."
+    "🌟 Passionate in Data Science🌟 I am an IBM Certified Data Analyst with a deep passion for transforming data into actionable insights 📊 that drive strategic business decisions. With a strong foundation in data analysis, I specialize in building data-driven solutions, predictive models, and visualizations that help businesses make informed choices."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1azLiuBOrKOC377I-V2cCneUgZZw7FDLm/view?usp=sharing", // Set to empty to hide the button
