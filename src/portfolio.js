@@ -24,7 +24,7 @@ const greeting = {
   username: "Mangali Navya",
   title: "Hi all, I'm Navya",
   subTitle: emoji(
-    "Results-driven Data Science student with expertise in data analytics, statistics, and programming. Skilled in Python, SQL, Excel, and data visualization tools like Tableau and Power BI to deliver actionable insights and support decision-making. Passionate about solving real-world problems through data and seeking opportunities to grow as a Data Analyst through impactful projects and internships."
+    "🌟 Passionate in Data Science🌟. I am an IBM Certified Data Analyst with a deep passion for transforming data into actionable insights 📊 that drive strategic business decisions. With a strong foundation in data analysis, I specialize in building data-driven solutions, predictive models, and visualizations that help businesses make informed choices."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1azLiuBOrKOC377I-V2cCneUgZZw7FDLm/view?usp=sharing", // Set to empty to hide the button
@@ -53,11 +53,11 @@ const skillsSection = {
   subTitle: "PASSIONATE DATA ANALYST EAGER TO EXPLORE EVERY ASPECT OF DATA AND ANALYTICS",
   skills: [
     emoji(
-      "🔍 Uncover Hidden Trends: Analyze large datasets to identify meaningful patterns and opportunities that drive business growth"
+      "🔍 Discover Trends: Utilize machine learning to uncover hidden patterns and insights, driving innovation and growth."
     ),
-    emoji("📊 Create Impactful Visualizations: Transform raw data into interactive dashboards and visual reports for clear decision-making"),
+    emoji("📊 Predictive Modeling: Develop and refine models to forecast behaviors, enabling strategic data-driven decisions."),
     emoji(
-      "🚀 Enable Data-Driven Strategies: Provide actionable insights to solve complex problems and optimize business performance"
+      "🚀 Optimize Performance: Create data solutions to enhance strategies and improve business efficiency and performance."
     )
   ],
 
@@ -86,17 +86,18 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-chart-line"
     },
     {
-      skillName: "Decision Making",
+      skillName: "Machine Learning",
+      fontAwesomeClassname: "fas fa-robot"
+    },
+    {
+      skillName: "Deep Learning",
       fontAwesomeClassname: "fas fa-brain"
     },
     {
       skillName: "AWS",
       fontAwesomeClassname: "fab fa-aws"
     },
-    {
-      skillName: "Machine Learning",
-      fontAwesomeClassname: "fas fa-robot"
-    },
+    
     {
       skillName: "Github",
       fontAwesomeClassname: "fab fa-github"
@@ -110,7 +111,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-cogs"
     },
     {
-      skillName: "C Language",
+      skillName: "C",
       fontAwesomeClassname: "fas fa-file-code"
     },
     {
@@ -172,11 +173,11 @@ const techStack = {
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "PowerBI",
+      Stack: "Data Visualization",
       progressPercentage: "85%"
     },
     {
-      Stack: "Excel",
+      Stack: "Machine Learning",
       progressPercentage: "90%"
     },
     {
@@ -184,7 +185,7 @@ const techStack = {
       progressPercentage: "90%"
     },
     {
-      Stack: "Python",
+      Stack: "Deep Learning",
       progressPercentage: "85%"
     },
     
