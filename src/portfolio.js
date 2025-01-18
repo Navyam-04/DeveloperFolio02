@@ -94,10 +94,17 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-brain"
     },
     {
+      skillName: "R",
+      fontAwesomeClassname: "fab fa-r-project"
+    },
+    {
       skillName: "AWS",
       fontAwesomeClassname: "fab fa-aws"
     },
-    
+    {
+      skillName: "Git",
+      fontAwesomeClassname: "fab fa-git"
+    },
     {
       skillName: "Github",
       fontAwesomeClassname: "fab fa-github"
@@ -126,10 +133,7 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "css3",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
-    {
-      skillName: "Git",
-      fontAwesomeClassname: "fab fa-git"
-    }
+    
   ],
   display: true // Set false to hide this section, defaults to true
 };
