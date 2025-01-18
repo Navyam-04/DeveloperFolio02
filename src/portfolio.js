@@ -50,12 +50,15 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "ENTHUSIASTIC DATA SCIENTIST WITH A KEEN INTEREST IN EXPLORING AND ANALYZING DATA TO UNCOVER VALUABLE INSIGHTS",
+  subTitle:
+    "ENTHUSIASTIC DATA SCIENTIST WITH A KEEN INTEREST IN EXPLORING AND ANALYZING DATA TO UNCOVER VALUABLE INSIGHTS",
   skills: [
     emoji(
       "🔍 Discover Trends: Utilize machine learning to uncover hidden patterns and insights, driving innovation and growth."
     ),
-    emoji("📊 Predictive Modeling: Develop and refine models to forecast behaviors, enabling strategic data-driven decisions."),
+    emoji(
+      "📊 Predictive Modeling: Develop and refine models to forecast behaviors, enabling strategic data-driven decisions."
+    ),
     emoji(
       "🚀 Optimize Performance: Create data solutions to enhance strategies and improve business efficiency and performance."
     )
@@ -132,8 +135,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "css3",
       fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -144,7 +146,8 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Rajeev Gandhi Memorial College of Engineering and Technology",
+      schoolName:
+        "Rajeev Gandhi Memorial College of Engineering and Technology",
       logo: require("./assets/images/logorgm.jpg"),
       subHeader: "Bachelor of Technology in Computer Science ( Data Science ) ",
       duration: "September 2022 - April 2026",
@@ -192,7 +195,7 @@ const techStack = {
       Stack: "Deep Learning",
       progressPercentage: "85%"
     },
-    
+
     // {
     //   Stack: "Data Visualization",
     //   progressPercentage: "90%"
@@ -250,12 +253,14 @@ const openSource = {
 
 const bigProjects = {
   title: "Projects",
-  subtitle: "FEW PROJECTS WHICH I HAVE WORKED ON TRANSFORMING RAW DATA INTO ACTIONABLE INSIGHTS",
+  subtitle:
+    "FEW PROJECTS WHICH I HAVE WORKED ON TRANSFORMING RAW DATA INTO ACTIONABLE INSIGHTS",
   projects: [
     {
       image: require("./assets/images/blinkitanalysis.png"),
       projectName: "Blinkit Analysis",
-      projectDesc: "Developed an interactive Power BI dashboard to analyze Blinkit's operational performance, including sales trends, delivery times, and customer satisfaction metrics, enabling data-driven decision-making...",
+      projectDesc:
+        "Developed an interactive Power BI dashboard to analyze Blinkit's operational performance, including sales trends, delivery times, and customer satisfaction metrics, enabling data-driven decision-making...",
       footerLink: [
         {
           name: "View Project",
@@ -267,7 +272,8 @@ const bigProjects = {
     {
       image: require("./assets/images/adidassalesanalysis.png"),
       projectName: "Adidas Sales Analysis",
-      projectDesc: "Streamlined data visualization and reporting by integrating key performance metrics, enabling data-driven decision-making and identifying opportunities for sales growth...",
+      projectDesc:
+        "Streamlined data visualization and reporting by integrating key performance metrics, enabling data-driven decision-making and identifying opportunities for sales growth...",
       footerLink: [
         {
           name: "View Project",
@@ -288,14 +294,17 @@ const achievementSection = {
     "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
   achievementsCards: [
-    
     {
       title: "Professional Certificate in Data Analyst",
-      subtitle: "With this certificate I have developed the confidence and portfolio to begin a career as an associate or junior data analyst...",
+      subtitle:
+        "With this certificate I have developed the confidence and portfolio to begin a career as an associate or junior data analyst...",
       image: require("./assets/images/ibmlogo.png"),
       imageAlt: "IBM Logo",
       footerLink: [
-        {name: "Certification", url: "https://drive.google.com/file/d/1knnAbD0kGhVquK9tMty9_aD7feiM-xU3/view?usp=sharing"},
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1knnAbD0kGhVquK9tMty9_aD7feiM-xU3/view?usp=sharing"
+        }
         // {
         //   name: "Final Project",
         //   url: "https://pakistan-olx-1.firebaseapp.com/"
@@ -305,25 +314,34 @@ const achievementSection = {
 
     {
       title: "Data Visualisation: Empowering Business with Effective Insights",
-      subtitle: "Completed a simulation involving creating data visualizations for Tata Consultancy Services...",
+      subtitle:
+        "Completed a simulation involving creating data visualizations for Tata Consultancy Services...",
       image: require("./assets/images/tatalofoforages.png"),
       imageAlt: "TATA Logo",
       footerLink: [
-        {name: "Certification", url: "https://drive.google.com/file/d/1LhquGjak-ggwj26c1nDXz_YOFkJAlX7v/view?usp=sharing"},
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1LhquGjak-ggwj26c1nDXz_YOFkJAlX7v/view?usp=sharing"
+        }
         // {
         //   name: "Final Project",
         //   url: "https://pakistan-olx-1.firebaseapp.com/"
         // }
       ]
     },
-    
+
     {
-      title: "Accenture North America Data Analytics and Visualization Job Simulation on Forage - May 2024",
-      subtitle: "Completed a simulation focused on advising a hypothetical social media client as a Data Analyst at Accenture...",
+      title:
+        "Accenture North America Data Analytics and Visualization Job Simulation on Forage - May 2024",
+      subtitle:
+        "Completed a simulation focused on advising a hypothetical social media client as a Data Analyst at Accenture...",
       image: require("./assets/images/accenturelogo.png"),
       imageAlt: "ACCENTURE Logo",
       footerLink: [
-        {name: "Certification", url: "https://drive.google.com/file/d/1l9oOSQSe21Oncl7_3j5xtd7OwMQ0J7Df/view?usp=sharing"},
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1l9oOSQSe21Oncl7_3j5xtd7OwMQ0J7Df/view?usp=sharing"
+        }
         // {
         //   name: "Final Project",
         //   url: "https://pakistan-olx-1.firebaseapp.com/"
@@ -332,33 +350,41 @@ const achievementSection = {
     },
 
     {
-      title: "PwC Switzerland Power BI Job Simulation on Forage - November 2024",
-      subtitle: "Completed a job simulation where I strengthened my PowerBI skills to better understand clients and their data visualisation needs...",
+      title:
+        "PwC Switzerland Power BI Job Simulation on Forage - November 2024",
+      subtitle:
+        "Completed a job simulation where I strengthened my PowerBI skills to better understand clients and their data visualisation needs...",
       image: require("./assets/images/pwcpowerbilogo.png"),
       imageAlt: "PWC Logo",
       footerLink: [
-        {name: "Certification", url: "https://drive.google.com/file/d/1ydeF_LDDbt9I9gmQZ5e3VRZ5eEFCmRjK/view?usp=sharing"},
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1ydeF_LDDbt9I9gmQZ5e3VRZ5eEFCmRjK/view?usp=sharing"
+        }
         // {
         //   name: "Final Project",
         //   url: "https://pakistan-olx-1.firebaseapp.com/"
         // }
       ]
     },
-
 
     {
       title: "BCG Data Science Job Simulation on Forage - December 2024",
-      subtitle: "Conducted efficient data analysis using Python, including Pandas and NumPy. Employed data visualization techniques for insightful trend interpretation...",
+      subtitle:
+        "Conducted efficient data analysis using Python, including Pandas and NumPy. Employed data visualization techniques for insightful trend interpretation...",
       image: require("./assets/images/bcgxlogo.png"),
       imageAlt: "BCGX Logo",
       footerLink: [
-        {name: "Certification", url: "https://drive.google.com/file/d/1uQkUyBEDwrfPnzz5pN8HgxsBh-fMZOo4/view?usp=sharing"},
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1uQkUyBEDwrfPnzz5pN8HgxsBh-fMZOo4/view?usp=sharing"
+        }
         // {
         //   name: "Final Project",
         //   url: "https://pakistan-olx-1.firebaseapp.com/"
         // }
       ]
-    },
+    }
 
     // {
     //   title: "Smart India Hackathon",
@@ -371,7 +397,7 @@ const achievementSection = {
     //       name: "Certification",
     //       url: "https://drive.google.com/file/d/11jwzxzN7_YmhAywcmN-gFKZyk-lMhOM9/view?usp=sharing"
     //     },
-        
+
     //   ]
     // },
     // {
@@ -387,7 +413,6 @@ const achievementSection = {
     //     }
     //   ]
     // },
-
   ],
   display: true // Set false to hide this section, defaults to true
 };

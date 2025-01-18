@@ -69,19 +69,9 @@
   color: purple;
 }
 
-
 .dark-menu .logo-name {
   color: orange;
 }
-
-
-
-
-
-
-
-
-
 
 /* menu */
 
@@ -189,17 +179,12 @@
   .header .menu-icon {
     display: none;
   }
-  
-
 }
 @media (max-width: 960px) and (min-width: 768px) {
   .header {
     font-size: 12px;
   }
-  
-  
 }
 
-@media (max-width: 420px)  {
-  
+@media (max-width: 420px) {
 }

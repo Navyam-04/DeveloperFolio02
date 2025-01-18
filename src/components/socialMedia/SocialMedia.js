@@ -8,8 +8,6 @@ export default function socialMedia() {
   }
   return (
     <div className="social-media-div">
-      
-
       {socialMediaLinks.linkedin ? (
         <a
           href={socialMediaLinks.linkedin}
