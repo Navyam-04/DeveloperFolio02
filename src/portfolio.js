@@ -3,14 +3,14 @@
 // To change portfolio colors globally go to the  _globalColor.scss file
 
 import emoji from "react-easy-emoji";
-//import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
-import birthdayAnimationIntro from "./assets/lottie/birthdayAnimationIntro.json"; // Rename to your file name for custom animation
+import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
+// import birthdayAnimationIntro from "./assets/lottie/birthdayAnimationIntro.json"; // Rename to your file name for custom animation
 
 // Splash Screen
 
 const splashScreen = {
   enabled: true, // set false to disable splash screen
-  animation: birthdayAnimationIntro,
+  animation: splashAnimation,
   duration: 3000 // Set animation duration as per your animation
 };
 
