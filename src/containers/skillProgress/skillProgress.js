@@ -27,7 +27,7 @@ export default function StackProgress() {
             })}
           </div>
 
-          <div className="skills-image">
+          <div className="skills-image-div">
             {illustration.animated ? (
               <DisplayLottie animationData={Build} />
             ) : (
